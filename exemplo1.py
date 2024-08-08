@@ -136,7 +136,7 @@ while True:
 
 # -----------------------------Calcular a média da idade
 soma = 0                 # somadora
-cont = 0                 #
+cont = 0                 # contagem
 
 while True:
     idade = int(input('Idade: '))
@@ -145,4 +145,4 @@ while True:
     soma += idade
     cont += 1
 media = soma / cont
-print(f'Média da idade: {idade}:.2f')
+print(f'Média da idade: {idade:.2f}')
